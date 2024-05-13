@@ -1,0 +1,40 @@
+/* img {
+    display: block;
+    max-width: 360px;
+    height: 200px;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+body {
+    padding: 0;
+    width: 1128px;
+}
+
+/* ======Gallery styles====== */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.gallery-img {
+    display: block;
+    max-width: 360px;
+    height: 200px;
+}
+
+.gallery-image:hover {
+    Width: 100%;
+    Height: auto;
+}
+
+.gallery-item:hover {
+    flex-shrink: 1;
+}
